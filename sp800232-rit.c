@@ -41,7 +41,6 @@
 /* linear layer, NIST SP 800-232 Figure 3 */
 #define ASCONPL(x0, x1, x2, x3, x4)          \
     do {                                     \
-        ;                                    \
         x0 ^= ROR64(x0, 19) ^ ROR64(x0, 28); \
         x1 ^= ROR64(x1, 61) ^ ROR64(x1, 39); \
         x2 ^= ROR64(x2, 1) ^ ROR64(x2, 6);   \

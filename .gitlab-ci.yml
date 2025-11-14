@@ -1,0 +1,9 @@
+.install_dependencies:
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq sharness
+
+test:
+  extends: .install_dependencies
+  script:
+    - make clean
+    - make test

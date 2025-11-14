@@ -1,0 +1,5 @@
+*.swp
+*.bak
+bak/
+spec/
+sp800232-rit_driver
